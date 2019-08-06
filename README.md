@@ -18,7 +18,7 @@ To submit an entry for the leaderboard, each team must provide a link to their p
 
 In other words, all entries must be open source and the public may evaluate the results online with a single click.
 
-If you have any questions regarding the Rich Context Leaderboard or if there are any problems identified in the corpus (e.g., data quality, incorrect metadata, broken links, etc.) please use [GitHub issues](issues) and pull requests to report, discuss, and resolve them.
+If you have any questions regarding the Rich Context Leaderboard or if there are any problems identified in the corpus (e.g., data quality, incorrect metadata, broken links, etc.) please use the GitHub issues for this repo and pull requests to report, discuss, and resolve them.
 
 Note that the corpus will be extended over time, with previous entries in the leaderboard being re-evaluated at each update.
 

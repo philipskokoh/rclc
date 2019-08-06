@@ -39,8 +39,8 @@ These annotations have been verified by domain experts.
 
 ### Current SOTA
 
-|  Source | Precision-at-K | Code | 
-| ------------- | :-----:| :----: | :----: | --- |
+|  Source | Precision-at-K | Code |
+| ------------- | :-----:| :----: |
 | Foo, Bar, Baz, et al. (2019) | 86.6 | [link]( https://github.com/HaritzPuerto/RCC/) |
 
 

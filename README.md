@@ -1,6 +1,6 @@
 # Tracking Progress in Rich Context
 
-[The Coleridge Initiative](https://coleridgeinitiative.org/richcontext) at NYU has been researching [*Rich Context*](https://coleridgeinitiative.org/richcontext) to enhance search and discovery of datasets used in scientific research -- see below for background info.
+[The Coleridge Initiative](https://coleridgeinitiative.org/richcontext) at NYU has been researching [*Rich Context*](https://coleridgeinitiative.org/richcontext) to enhance search and discovery of datasets used in scientific research — see below for background info.
 Partnering with experts throughout academia and industry, NYU-CI has worked to leverage the closely adjacent fields of NLP/NLU, knowledge graph, recommender systems, scholarly infrastructure, data mining from scientific literature, dataset discovery, linked data, open vocabularies, metadata management, data governance, and so on.
 
 Use of open source and open standards are especially important to further the cause for effective, reproducible research.
@@ -11,7 +11,7 @@ We are hosting this competition to focus on the challenges of specific machine l
 
 To submit an entry for the leaderboard, each team must provide a link to their public GitHub repo that includes:
 
-  1. Code in a single [Jupyter notebook](https://jupyter.org/) used to build their model and evaluate results -- referencing the [corpus](blob/master/corpus.jsonld) from this repo.
+  1. Code in a single [Jupyter notebook](https://jupyter.org/) used to build their model and evaluate results — referencing the [corpus](blob/master/corpus.jsonld) from this repo.
   1. Configuration which allows anyone to run the notebook on [Binder](https://mybinder.org/) (see the [docs](https://mybinder.readthedocs.io/en/latest/introduction.html#preparing-a-repository-for-binder) and a [tutorial](http://ivory.idyll.org/blog/2017-four-steps-five-minutes-binder.html)).
   1. An open source license for the code, configuration, and subsequent models produced.
   1. A brief paper describing their approach.
@@ -64,7 +64,7 @@ Notebooks used to evaluate models must calculate these two metrics for each publ
 
 It’s important to consider Rich Context in the sense of a workflow: ML models solve specific use cases at different stages of the workflow.
 So there are needs for multiple kinds of modeling to be researched and evaluated.
-The structure of this leaderboard competition is capable of managing multiple use cases -- with one leaderboard for each identified use case -- as an ongoing, parallelized research effort.
+The structure of this leaderboard competition is capable of managing multiple use cases – with one leaderboard for each identified use case – as an ongoing, parallelized research effort.
 
 Overall, a three-step process is being used to apply the results of this competition and extend the corpus:
 
@@ -81,11 +81,11 @@ For example, [RePEc](http://repec.org/) communications could provide means for t
 For more details about Rich Context and other related research, see the white paper ["Rich Context in the Administrative Data Research Facility"](https://coleridgeinitiative.org/assets/docs/ADRF%20White%20Paper_%20Rich%20Context.pdf).
 
 The first iteration of the [Rich Context Competition](https://coleridgeinitiative.org/richcontextcompetition) (during late 2018-early 2019) established the potential to apply the latest machine learning research toward search and discovery of research datasets.
-A book now in production -- 
+A book now in production — 
 [*Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure*](https://tinyurl.com/richcontextbook) 
---  summarizes that initial machine learning competition and approaches taken by leading teams, plus key takeaways.
+—  summarizes that initial machine learning competition and approaches taken by leading teams, plus key takeaways.
 
-This next iteration of the competition has been based on “state of the art” (SOTA) leaderboards that track ML research, such as [NLP-progress](https://nlpprogress.com/) and [PapersWithCode](https://paperswithcode.com/sota).
+This next (ongoing) iteration of the competition has been based on “state of the art” (SOTA) leaderboards that track ML research, such as [NLP-progress](https://nlpprogress.com/) and [PapersWithCode](https://paperswithcode.com/sota).
 
 Sponsors of this research include 
 [Schmidt Futures](https://schmidtfutures.com/), 

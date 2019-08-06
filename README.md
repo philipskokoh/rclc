@@ -31,7 +31,7 @@ Note that the corpus will be extended over time, with previous entries in the le
 The first challenge is to identify the datasets used in research publications, initially focused on the problem of [entity linking](https://nlpprogress.com/english/entity_linking.html).
 Research papers typically mention the datasets they've used, although the process to identify those mentions requires extracting text from the PDF, some NLP parsing of the text, feature engineering (e.g., paying attention to where is found in the paper), and so on.
 
-The [corpus](corpus.jsonld) for this challenge provides a graph of research publications linked with their datasets, and serialized as [JSON-LD](https://json-ld.org/) using the [ADRF vocabulary](https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary), which is turn is based on [POD](https://sparontologies.github.io/cito/current/cito.html), [CITO](https://sparontologies.github.io/cito/current/cito.html), etc.
+The [corpus](corpus.jsonld) for this challenge provides a graph of research publications linked with their datasets, and serialized as [JSON-LD](https://json-ld.org/) using the [ADRF vocabulary](https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary), which is turn is based on [POD](https://project-open-data.cio.gov/v1.1/schema/), [CITO](https://sparontologies.github.io/cito/current/cito.html), etc.
 Each publication has properties for *uuid*, *title*, *journal*, an optional *doi*, plus a URL for an *open access pdf* – plus, a list of datasets used in that research.
 Each dataset has properties for *uuid*, *name*, and *provider*.
 These annotations have been verified by domain experts.

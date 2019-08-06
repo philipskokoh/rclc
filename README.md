@@ -11,10 +11,10 @@ We are hosting this competition to focus on the challenges of specific machine l
 
 To submit an entry for the leaderboard, each team must provide a link to their public GitHub repo that includes:
 
-  1. Code in a single [Jupyter notebook](https://jupyter.org/) used to build their model and evaluate results -- referencing the [corpus](blob/master/corpus.jsonld) from this repo
-  1. Configuration which allows anyone to run the notebook on [Binder](https://mybinder.org/) (see the [docs](https://mybinder.readthedocs.io/en/latest/introduction.html#preparing-a-repository-for-binder) and a [tutorial](http://ivory.idyll.org/blog/2017-four-steps-five-minutes-binder.html))
-  1. An open source license for the code, configuration, and subsequent models produced
-  1. A brief paper describing their approach
+  1. Code in a single [Jupyter notebook](https://jupyter.org/) used to build their model and evaluate results -- referencing the [corpus](blob/master/corpus.jsonld) from this repo.
+  1. Configuration which allows anyone to run the notebook on [Binder](https://mybinder.org/) (see the [docs](https://mybinder.readthedocs.io/en/latest/introduction.html#preparing-a-repository-for-binder) and a [tutorial](http://ivory.idyll.org/blog/2017-four-steps-five-minutes-binder.html)).
+  1. An open source license for the code, configuration, and subsequent models produced.
+  1. A brief paper describing their approach.
 
 In other words, all entries must be open source and the public may evaluate the results online with a single click.
 
@@ -39,7 +39,7 @@ These annotations have been verified by domain experts.
 
 ### Current SOTA
 
-|  Source | Precision-at-K | Code |
+|  source | precision-at-K | repo |
 | ------------- | :-----:| :----: |
 | Foo, Bar, Baz, et al. (2019) | 86.6 | [link]( https://github.com/HaritzPuerto/RCC/) |
 
@@ -68,9 +68,9 @@ The structure of this leaderboard competition is capable of managing multiple us
 
 Overall, a three-step process is being used to apply the results of this competition and extend the corpus:
 
-  1. track progress for specific machine learning use cases, based on the current corpus
-  2. apply leading ML models to identify datasets in a broader set of research publications
-  3. have authors confirm or reject the inferred datasets
+  1. Track progress for specific machine learning use cases, based on the current corpus.
+  2. Apply leading ML models to identify datasets in a broader set of research publications.
+  3. Have the publication authors explicitly confirm or reject the inferred dataset annotations.
 
 The latter step introduces opportunities to use semi-surpervised learning (aka, “human-in-the-loop” approaches) to improve research metadata.
 For example, [RePEc](http://repec.org/) communications could provide means for that annotation process and feedback.

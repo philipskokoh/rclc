@@ -1,10 +1,10 @@
 # Tracking Progress in Rich Context
 
-[The Coleridge Initiative](https://coleridgeinitiative.org/richcontext) at NYU has been researching [*Rich Context*](https://coleridgeinitiative.org/richcontext) to enhance search and discovery of datasets used in scientific research — see below for background info.
+[The Coleridge Initiative](https://coleridgeinitiative.org/richcontext) at NYU has been researching [*Rich Context*](https://coleridgeinitiative.org/richcontext) to enhance search and discovery of datasets used in scientific research — see the "Background Info" section below for more details.
 Partnering with experts throughout academia and industry, NYU-CI has worked to leverage the closely adjacent fields of NLP/NLU, knowledge graph, recommender systems, scholarly infrastructure, data mining from scientific literature, dataset discovery, linked data, open vocabularies, metadata management, data governance, and so on.
 
 Use of open source and open standards are especially important to further the cause for effective, reproducible research.
-We are hosting this competition to focus on the research challenges of specific machine learning use cases encountered within Rich Context, then we're publishing leaderboards on GitHub to track progress among the top results.
+We're hosting this competition to focus on the research challenges of specific machine learning use cases encountered within Rich Context – see the "Workflow Stages" section below. Then we're publishing leaderboards on GitHub to track progress among the top results.
 
 
 ## How To Participate
@@ -60,7 +60,7 @@ Notebooks used to evaluate models must calculate these two metrics for each publ
 
 
 ---
-## Subsequent Stages
+## Workflow Stages
 
 It’s important to consider Rich Context in the sense of a workflow: ML models solve specific use cases at different stages of the workflow.
 So there are needs for multiple kinds of modeling to be researched and evaluated.

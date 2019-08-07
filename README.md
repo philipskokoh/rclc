@@ -39,7 +39,7 @@ These annotations have been verified by domain experts.
 
 ### Current SOTA
 
-|  source | precision-at-K | repo |
+|  source | precision-at-k | repo |
 | ------------- | :-----:| :----: |
 | Foo, Bar, Baz, et al. (2019) | 86.6 | [link]( https://github.com/HaritzPuerto/RCC/) |
 

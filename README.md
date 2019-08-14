@@ -72,7 +72,7 @@ Overall, a three-step process is being used to apply the results of this competi
   2. Apply leading ML models to identify datasets in a broader set of research publications.
   3. Have the publication authors explicitly confirm or reject the inferred dataset annotations.
 
-The latter step introduces opportunities to use semi-surpervised learning (aka, “human-in-the-loop” approaches) to improve research metadata.
+The latter step introduces opportunities to use semi-supervised learning (aka, “human-in-the-loop” approaches) to improve research metadata.
 For example, [RePEc](http://repec.org/) communications could provide means for that annotation process and feedback.
 
 ---

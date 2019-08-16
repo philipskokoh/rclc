@@ -90,7 +90,7 @@ by domain experts.
 We evaluate models based on `Top5uptoD` relevance ranking, assuming
 that each publication contains `D < 5` datasets.
 In the case of `D = 3` datasets, if the Top4 contains all 3 datasets
-then nothing beyond the 4th ranked item will be considered relevant.
+then nothing beyond the 3rd ranked item will be considered relevant.
 In other words, this measure does not penalize relevance past
 discovering all D corpora in the rank-ordered results.
 If all D datasets do not appear in the Top5, this measure reverts back

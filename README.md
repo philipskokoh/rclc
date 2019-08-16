@@ -96,11 +96,9 @@ discovering all D corpora in the rank-ordered results.
 If all D datasets do not appear in the Top5, this measure reverts back
 to a Top5 error.
 
-<img
- src="https://github.com/Coleridge-Initiative/rclc/blob/master/docs/uptod.png"
- alt="Relevance Up To D""
- width="800"
- />
+For an illustration of this relevance ranking, see:
+[Relevance Up To D](https://github.com/Coleridge-Initiative/rclc/blob/master/docs/uptod.png)
+
 
 Also, each prediction must be accompanied by a metric to estimate the
 uncertainty of the predicted dataset.

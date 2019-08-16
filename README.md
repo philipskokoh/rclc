@@ -23,7 +23,7 @@ GitHub to track progress among the top results.
 To submit an entry for the leaderboard, each team must provide a link
 to their public GitHub repo that includes:
 
-  1. Code used to build their model, plus the pre-built model (which may be stored in a public bucket).
+  1. Code used to build their model, plus a pre-built model (may be stored in a public bucket).
   1. Code in a single [Jupyter notebook](https://jupyter.org/) used to run their model and evaluate results — referencing the [corpus](corpus.ttl) from this repo.
   1. Configuration which allows anyone to run the notebook on [Binder](https://mybinder.org/) (see the [docs](https://mybinder.readthedocs.io/en/latest/introduction.html#preparing-a-repository-for-binder) and a [tutorial](http://ivory.idyll.org/blog/2017-four-steps-five-minutes-binder.html)).
   1. An open source license for the code, configuration, and subsequent models produced.
@@ -32,10 +32,10 @@ to their public GitHub repo that includes:
 In other words, all entries must be open source and the public may
 evaluate the results online with a single click.
 
-For an example of how to load the corpus in Python, see the code
-toward the end of the `corpus.py` file.
-This can be run with the following command line, which loads the TTL
-file and then iterates through all of the relations in the graph:
+For examples of how to load the corpus files in Python, see the code
+toward the end of the `corpus.py` script.
+The following command line loads the TTL file, then iterates through
+all of the relations in the graph:
 
 ```
 pip install -r requirements.txt
@@ -47,8 +47,10 @@ you identify any problems in the corpus (e.g., data quality, incorrect
 metadata, broken links, etc.) please use the GitHub issues for this
 repo and pull requests to report, discuss, and resolve them.
 
-Note that the corpus will be extended over time, with previous entries
-in the leaderboard being re-evaluated at each update.
+Note that the corpus will be extended over time, with updates managed
+using GitHub tags and versioning. 
+At each update, previous entries in the leaderboard will get
+re-evaluated.
 
 
 ---
@@ -80,33 +82,35 @@ by domain experts.
 
 ### Current SOTA
 
-|  source | precision-at-k | repo |
+|  source | score | repo |
 | ------------- | :-----:| :----: |
 | Foo, Bar, Baz, et al. (2019) | 86.6 | [link]( https://github.com/HaritzPuerto/RCC/) |
 
 
 ### Evaluation
 
-We evaluate models based on `Top5uptoD` relevance ranking, assuming
-that each publication contains `D < 5` datasets.
+We evaluate models based on `Top5uptoD` relevance ranking (assuming
+that each publication contains `D <= 5` datasets) to prioritize
+_precision_ and take into account a variable number of datasets per
+publication.
+
 In the case of `D = 3` datasets, if the Top4 contains all 3 datasets
 then nothing beyond the 3rd ranked item will be considered relevant.
-In other words, this measure does not penalize relevance past
+In other words, this approach does not penalize relevance past
 discovering all D corpora in the rank-ordered results.
-If all D datasets do not appear in the Top5, this measure reverts back
-to a Top5 error.
+If all D datasets do not appear in the Top5, the ranking reverts back
+to a _Top5 error_.
 
-For an illustration of this relevance ranking, see:
+To illustrate the relevance ranking, see:
 [Relevance Up To D](https://github.com/Coleridge-Initiative/rclc/blob/master/docs/uptod.png)
 
-
-Also, each prediction must be accompanied by a metric to estimate the
-uncertainty of the predicted dataset.
-
+Also, each predicted dataset must be accompanied by an estimate for the
+uncertainty of that prediction.
 
 Notebooks which get used to evaluate models must calculate these two
 metrics for each publication, along with the aggregate rate of correct
-datasets appearing in the top *k* entries.
+datasets appearing in the `Top5uptoD` entries across all publications
+in the corpus.
 
 
 ---

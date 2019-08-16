@@ -87,21 +87,28 @@ by domain experts.
 
 ### Evaluation
 
-We evaluate models based on the top *k* datasets predicted for each
-publication, using “precision at k” as the metric:
+We evaluate models based on `Top5uptoD` relevance ranking, assuming
+that each publication contains `D < 5` datasets.
+In the case of `D = 3` datasets, if the Top4 contains all 3 datasets
+then nothing beyond the 4th ranked item will be considered relevant.
+In other words, this measure does not penalize relevance past
+discovering all D corpora in the rank-ordered results.
+If all D datasets do not appear in the Top5, this measure reverts back
+to a Top5 error.
 
-```
-(# identified datasets @k that are relevant) / (# identified datasets @k)
-```
+<img
+ src="https://github.com/Coleridge-Initiative/rclc/blob/master/docs/uptod.png"
+ alt="Relevance Up To D""
+ width="800"
+ />
 
-In this case, *k* is 5.
-
-Each prediction must be accompanied by a metric to estimate the
+Also, each prediction must be accompanied by a metric to estimate the
 uncertainty of the predicted dataset.
 
-Notebooks used to evaluate models must calculate these two metrics for
-each publication, along with the aggregate rate of correct datasets
-appearing in the top *k* entries.
+
+Notebooks which get used to evaluate models must calculate these two
+metrics for each publication, along with the aggregate rate of correct
+datasets appearing in the top *k* entries.
 
 
 ---

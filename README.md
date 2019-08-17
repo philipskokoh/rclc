@@ -32,10 +32,16 @@ to their public GitHub repo that includes:
 In other words, all entries must be open source and the public may
 evaluate the results online with a single click.
 
+The corpus is provided in both [TTL](https://www.w3.org/TR/turtle/) 
+and [JSON-LD](https://json-ld.org/) serialization formats.
+The former is more human-readable while the latter is generally more 
+broadly usable for machines.
+We provide code to convert between the two formats.
+
 For examples of how to load the corpus files in Python, see the code
 toward the end of the `corpus.py` script.
 The following command line loads the TTL file, then iterates through
-all of the relations in the graph:
+all of the relations in the graph and generates JSON-LD:
 
 ```
 pip install -r requirements.txt

@@ -88,6 +88,8 @@ by domain experts.
 
 ### Current SOTA
 
+(**NB: the following is a mock until after 2019-09-30**)
+
 |  source | score | repo |
 | ------------- | :-----:| :----: |
 | Foo, Bar, Baz, et al. (2019) | 86.6 | [link]( https://github.com/HaritzPuerto/RCC/) |

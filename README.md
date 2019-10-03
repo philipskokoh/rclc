@@ -26,7 +26,7 @@ Identifying dataset mentions typically requires:
   * feature engineering (e.g., paying attention to where the text is located in the paper)
   * modeling to identify up to 5 datasets per publication
 
-See [_Evaluating Models for Entity Linking with Datasets_](https://github.com/Coleridge-Initiative/rclc/wiki/Evaluating-Models-for-Entity-Linking-with-Datasets) for details about how the leaderboard metric is calculated.
+See [_Evaluating Models for Entity Linking with Datasets_](https://github.com/Coleridge-Initiative/rclc/wiki/Evaluating-Models-for-Entity-Linking-with-Datasets) for details about how the `Top5uptoD` leaderboard metric is calculated.
 
 ### Current SOTA
 

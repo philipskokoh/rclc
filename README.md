@@ -6,6 +6,7 @@ Partnering with experts throughout academia and industry, NYU-CI has
 worked to leverage the closely adjacent fields of NLP/NLU, knowledge
 graph, recommender systems, scholarly infrastructure, data mining from
 scientific literature, dataset discovery, linked data, open vocabularies, metadata management, data governance, and so on.
+Leaderboards are published here on GitHub to track _state-of-the-art_ (SOTA) progress among the top results.
 
 
 ## Leaderboard 1
@@ -46,6 +47,5 @@ See [_Evaluating Models for Entity Linking with Datasets_](https://github.com/Co
 Use of open source and open standards are especially important to
 further the cause for effective, reproducible research. 
 We're hosting this competition to focus on the research challenges of specific machine learning use cases encountered within Rich Context – see the [_Workflow Stages_](https://github.com/Coleridge-Initiative/rclc/wiki/Workflow-Stages) section. 
-Leaderboards are published here on GitHub to track _state-of-the-art_ (SOTA) progress among the top results.
 
 If you have any questions about the Rich Context leaderboard competition -- and especially if you identify any problems in the corpus (e.g., data quality, incorrect metadata, broken links, etc.) -- please use the GitHub issues for this repo and pull requests to report, discuss, and resolve them.

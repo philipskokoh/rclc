@@ -660,7 +660,7 @@
       },
       "openAccess": {
         "@type": "xsd:anyURI",
-        "@value": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/ajcp.12031"
+        "@value": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajcp.12031"
       }
     },
     {
@@ -2710,7 +2710,7 @@
       },
       "openAccess": {
         "@type": "xsd:anyURI",
-        "@value": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1834-7819.2009.01108.x"
+        "@value": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1834-7819.2009.01108.x"
       }
     },
     {
@@ -5911,7 +5911,7 @@
       },
       "openAccess": {
         "@type": "xsd:anyURI",
-        "@value": "https://aasldpubs.onlinelibrary.wiley.com/doi/pdf/10.1002/hep.23220"
+        "@value": "https://aasldpubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hep.23220"
       }
     },
     {
@@ -7496,7 +7496,7 @@
       },
       "openAccess": {
         "@type": "xsd:anyURI",
-        "@value": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/apt.12432"
+        "@value": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apt.12432"
       }
     },
     {
@@ -13550,7 +13550,7 @@
       },
       "openAccess": {
         "@type": "xsd:anyURI",
-        "@value": "https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-985X.2007.00471.x"
+        "@value": "https://rss.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1467-985X.2007.00471.x"
       }
     },
     {

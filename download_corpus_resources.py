@@ -62,18 +62,18 @@ def _download(uri: str, res_type: str,
                 session = HTMLSession()
                 r0 = session.get(uri)
                 res = session.get(list(r0.html.absolute_links)[0])
-            elif parsed_uri.netloc.endswith('onlinelibrary.wiley.com'):
-                """ Special case: wiley auto generates embed pdf to render pdf
-                """
-                r0 = requests.get(uri)
-                soup = BeautifulSoup(r0.content, 'html5lib')
-                if soup.find('embed') is None:
-                    print(f'Unexpected response for: {uri}')
-                    trial += 1
-                    continue
-                src = soup.find('embed')['src']
-                res = requests.get(parsed_uri.scheme + '://' +
-                                   parsed_uri.netloc + src)
+            # elif parsed_uri.netloc.endswith('onlinelibrary.wiley.com'):
+            #     """ Special case: wiley auto generates embed pdf to render pdf
+            #     """
+            #     r0 = requests.get(uri)
+            #     soup = BeautifulSoup(r0.content, 'html5lib')
+            #     if soup.find('embed') is None:
+            #         print(f'Unexpected response for: {uri}')
+            #         trial += 1
+            #         continue
+            #     src = soup.find('embed')['src']
+            #     res = requests.get(parsed_uri.scheme + '://' +
+            #                        parsed_uri.netloc + src)
             else:
                 res = requests.get(uri, headers=headers, timeout=(10, 20))
             if res_type == 'unknown':
